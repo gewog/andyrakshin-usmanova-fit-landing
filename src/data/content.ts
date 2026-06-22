@@ -13,11 +13,11 @@ export const ACHIEVEMENTS = [
 ] as const
 
 export const GALLERY_IMAGES = [
-  'https://gcfs06.getcourse.ru/files/934144/220/b3ae36f9-2f91-4ea1-865c-f6ababa82198-1-1443a.png',
-  'https://gcfs06.getcourse.ru/files/934144/284/image-7004c3.png',
-  'https://gcfs06.getcourse.ru/files/934144/464/image-668f8d.png',
-  'https://gcfs06.getcourse.ru/files/934144/484/image-746304.png',
-  'https://gcfs06.getcourse.ru/files/934144/361/image-68574e.png',
+  '/assets/gallery/gallery-1.png',
+  '/assets/gallery/gallery-2.png',
+  '/assets/gallery/gallery-3.png',
+  '/assets/gallery/gallery-4.png',
+  '/assets/gallery/gallery-5.png',
 ] as const
 
 export const CONTACT_LINKS = [
