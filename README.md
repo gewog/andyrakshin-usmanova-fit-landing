@@ -36,8 +36,8 @@
 ## Установка и запуск
 
 ```bash
-git clone https://github.com/<username>/usmanova-fit-landing.git
-cd usmanova-fit-landing
+git clone https://github.com/gewog/andyrakshin-usmanova-fit-landing.git
+cd andyrakshin-usmanova-fit-landing
 
 # установить зависимости
 npm install
@@ -59,7 +59,7 @@ gh repo create usmanova-fit-landing --public --source=. --remote=origin --push
 Если репозиторий уже создан вручную на GitHub:
 
 ```bash
-git remote add origin https://github.com/<username>/usmanova-fit-landing.git
+git remote add origin https://github.com/gewog/andyrakshin-usmanova-fit-landing.git
 git push -u origin main
 ```
 
