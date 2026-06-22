@@ -85,7 +85,16 @@ npm run test:coverage
 
 ## Деплой
 
+**Live:** https://usmanova-fit-landing-gamma.vercel.app
+
 Проект — статический SPA. Подходит для Vercel, Netlify, GitHub Pages.
+
+```bash
+# Vercel (после npm run build)
+npx vercel deploy --prod
+```
+
+GitHub Actions (`.github/workflows/ci.yml`) автоматически запускает тесты и деплоит на GitHub Pages при push в `main`.
 
 ## Инструмент разработки
 
