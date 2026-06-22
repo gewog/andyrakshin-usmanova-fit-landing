@@ -36,7 +36,6 @@
 ## Установка и запуск
 
 ```bash
-# клонировать репозиторий
 git clone https://github.com/<username>/usmanova-fit-landing.git
 cd usmanova-fit-landing
 
@@ -48,6 +47,21 @@ npm run dev
 ```
 
 Приложение откроется на `http://localhost:5173`.
+
+## Репозиторий
+
+```bash
+# создать публичный репозиторий и запушить (нужен GitHub CLI)
+gh auth login
+gh repo create usmanova-fit-landing --public --source=. --remote=origin --push
+```
+
+Если репозиторий уже создан вручную на GitHub:
+
+```bash
+git remote add origin https://github.com/<username>/usmanova-fit-landing.git
+git push -u origin main
+```
 
 ## Сборка
 
